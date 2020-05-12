@@ -21,6 +21,14 @@ body {
     text-decoration: none;
 }
 
+.studio {
+    color: var(--title-text-color);
+}
+
+.studio-footer {
+    color: var(--primary-white-color);
+}
+
 
 /* site-nav */
 .site-nav .link {
@@ -68,6 +76,41 @@ body {
     letter-spacing: 0.06em;
 }
 
+.button-secondary {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
 .list {
     list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list .link {
+    text-decoration: none;
+}
+
+/* Footer */
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #2F303A;
 }
